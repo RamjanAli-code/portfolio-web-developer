@@ -1,0 +1,44 @@
+* {
+    background-color: rgb(230, 219, 222);
+}
+
+.img1 {
+    position: relative;
+    /* height: 60px; */
+    /* position: static---no-move; */
+    /* position: relative; left-right-up-down */
+    /* position: absolute; left-right-up-down but loss his position */
+    /* position: fixed; fixed for parent dev */
+    /* position: sticky; */
+    /* left: 200px;
+top: 100px; */
+    /* height: 300px;
+width: 300px; */
+}
+
+.img2 {
+    position: relative;
+    /* position: sticky; */
+    /* position: absolute; */
+    /* /* top: 500px; */
+    top: 300px;
+    z-index: 1;
+    /* height: 300px;
+width: 300px;
+} */
+}
+
+.img3 {
+    position: relative;
+    /* height: 300px;
+width: 300px; */
+    z-index: 8;
+    top: -300px;
+}
+
+.dummy {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
